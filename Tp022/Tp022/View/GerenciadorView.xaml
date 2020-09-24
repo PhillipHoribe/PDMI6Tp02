@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp022.View.GerenciadorView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Gerenciador de Paginas!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Estilo Padrão" Command="{Binding EstiloPadraoCommand}"/>
+            <Button Text="Estilo Dinamico" Command="{Binding EstiloDinamicoCommand}"/>
+            <Button Text="Estilo EventTriggres" Command="{Binding EstiloEventTriggresCommand}"/>
+            <Button Text="Estilo Global" Command="{Binding EstiloGlobalCommand}"/>
+            <Button Text="Home" Command="{Binding HomeCommand}"/>
+            <Button Text="Produto" Command="{Binding ProdutoCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

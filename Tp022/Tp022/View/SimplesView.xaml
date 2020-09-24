@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp022.View.SimplesView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding id}"/>
+            <Label Text="{Binding descricao}"/>
+            <Label Text="{Binding categoria}"/>
+            <Label Text="{Binding quantidade}"/>
+            <Label Text="{Binding preco}"/>
+            <Button Text="Voltar" Command="{Binding GerenciadorCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

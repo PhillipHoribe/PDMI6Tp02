@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tp022.View.HomeView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding nome}" Placeholder="nome"/>
+            <Entry Text="{Binding idade}" Placeholder="idade"/>
+            <Entry Text="{Binding profissao}" Placeholder="profissao"/>
+            <Entry Text="{Binding pais}" Placeholder="pais"/>
+            <Button Text="Valores digitados" Command="{Binding CadastroCommand}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
